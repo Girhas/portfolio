@@ -1,0 +1,60 @@
+header{
+
+    height: 80vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container{
+
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* Applying CSS for My image */
+
+.me{
+
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1,5rem 1.5rem;
+}
+
+.me > img{
+
+    margin-left: .5rem;
+}
+
+/* Applying CSS for Scroll Down */
+
+/* Media queries for medium devices(Tablets) */
+
+@media screen and (max-width: 1024px) {
+
+    header{
+
+        height: 83vh;
+    }
+
+}
+
+/* Media queries for small devices(Mobiles) */
+
+@media screen and (max-width: 600px) {
+
+    header{
+
+        height: 60vh;
+    }
+
+    .me > img{
+
+        margin-top: 2.5rem;
+    }
+}
